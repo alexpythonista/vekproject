@@ -36,7 +36,7 @@ vekproject/
 └── .gitignore              # Git ignore rules
 ```
 ### Path to test data
-Path to test CSV and its name can be changed [HERE]()
+Path to test CSV and its name can be changed [HERE](https://github.com/alexpythonista/vekproject/blob/f7a1000a4e4acc005570cff771df41bb5989f038/services.py#L7)
 - CSV-data file was intentionally not added to the repo.
 ## Technology Stack
 - Python 3.14
@@ -55,7 +55,7 @@ docker build -t fastapi-app .
 docker run -p 8000:8000 fastapi-app
 ```
 ### Or main.py
-Enable by uncommenting [HERE]()
+Enable by uncommenting [HERE](https://github.com/alexpythonista/vekproject/blob/f7a1000a4e4acc005570cff771df41bb5989f038/main.py#L22-L24)
 ## API Documentation
 Once running, access:
 - API: ```http://localhost:8000```
